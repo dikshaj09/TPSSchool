@@ -1,0 +1,66 @@
+.panel{
+margin-left:6px;
+max-width:24.3%;
+margin-top:2px;
+padding:0;
+text-align: center;
+height:175px;
+
+}
+
+ #logo {
+    width: 75px;
+    height: 72px;
+    margin-left:10%;
+    padding: 0%;
+  }
+
+  .brand-header{
+    text-align: right;
+    font-size: 0.7rem;
+    color:white;
+    
+
+  }
+
+.navbar-brand{
+  color:yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem !important;
+  padding: 0% !important;
+  font-style: italic;
+
+}
+  header{
+    background-color: green;
+    height:15%;
+    width:100%;
+  }
+
+  nav{
+       border: black solid 1px;
+  }
+
+  .nav-justified > li {
+    margin-left: 0.8rem;
+    border-right:1px solid black;
+}
+
+ .nav-justified > li:last-child {
+    
+    border-right:0px;
+}
+
+.nav-justified > li> a{
+  padding: 1.8rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+  height:250px;
+
+}
+.card-header{
+  background-color: orange !important;
+  text-align: center;
+}
