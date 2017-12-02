@@ -7,14 +7,16 @@ import {AppRoutingModule} from './app.routing'
 
 import {HomeService} from '../service/home.service';
 import { CaraouselComponent } from './Home/caraousel.component';
-import { SlideComponent } from './Home/slide.component'
+import { SlideComponent } from './Home/slide.component';
+import { ContactUsComponent } from './ContactUs/contactus.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CaraouselComponent,
-    SlideComponent
+    SlideComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,HttpModule,AppRoutingModule

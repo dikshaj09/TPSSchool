@@ -1,0 +1,42 @@
+<h2 class="text-center">CONTACT</h2>
+<div class="row">
+  <div class="col-sm-5">
+    <p>Contact us and we'll get back to you within 24 hours.</p>
+    <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+    <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+    <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+  </div>
+  <div class="col-sm-7">
+    <div class="row">
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required ng-model="name">
+      </div>
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="email" name="email" placeholder="Email" type="email" ng-model="email" required>
+      </div>
+    </div>
+    <div class="row">
+     <div class="col-sm-12">
+    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" ng-model="comment"></textarea><br>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <button class="btn btn-default pull-right" type="submit" ng-submit="sendMail()">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="googleMap" style="height:300px;width:100%;">
+
+</div>
+<div class="row" style="padding:2%;">
+<div class="col-sm-offset-6">
+<button type="button" class="btn btn-info" style="">
+<a href="#/journey" ng-keypress="On"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+</button>
+</div>
+</div>  
+
+<!-- Add Google Maps -->
+
