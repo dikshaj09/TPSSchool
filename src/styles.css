@@ -56,11 +56,33 @@ height:175px;
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.card{
+.card-home{
   height:250px;
 
 }
-.card-header{
+.card-home-header{
   background-color: orange !important;
   text-align: center;
+}
+.contact-us-container{
+  border: 1px solid black;
+  padding-top:2px;
+  height: 100%;
+}
+.card-contact-header{
+ /* background-color: transparent !important;*/
+  text-align: center;
+  border: 1px solid lightgray;
+  color: orangered;
+  padding: 5px;
+}
+
+.card-contact{
+  margin-top:10px;
+  margin-bottom: 1%;
+}
+
+agm-map {
+  height:500px;
+  padding:2%;
 }
